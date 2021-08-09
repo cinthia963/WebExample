@@ -317,7 +317,7 @@ font-size: 20px;
 
 } 
 
-/*medidadas*/
+/*medidas*/
 
 @media screen and (max-width: 550px){
 .menu-servicio > div{
@@ -338,7 +338,7 @@ font-size: 20px;
         font-size: 23px;
     }
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:550px){
 .menu-servicio{
     width: 100%;
     margin-left: 20px;
@@ -608,6 +608,12 @@ object-fit: cover;
     .eventos{
         width: 40%;
         margin-left: 220px;
+    }
+}
+@media screen and (max-width:550px){
+    .eventos{
+        width: 50%;
+        margin-left: 150px;
     }
 }
 
